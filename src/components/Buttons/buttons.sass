@@ -1,0 +1,49 @@
+@import '../../_variables'
+
+.buttons
+    &__grid
+        display: grid
+        grid-template: repeat(5,1fr) / repeat(4, 1fr)
+        grid-gap: 0.8rem
+
+        .key
+            display: flex
+            justify-content: center
+            align-items: center
+            user-select: none
+            padding: 1.5em
+            border-radius: 15px
+            background-color: $key-bgcolor
+            transition: all 0.2s ease-in-out
+            cursor: pointer
+
+            &.number,
+            &.decimal
+                background-color: $key-bgcolor
+
+                &:hover
+                    background-color: darken($key-bgcolor, 15%)
+                    
+            &.operator
+                background-color: $operator-key-bgcolor
+
+                &:hover
+                    background-color: darken($operator-key-bgcolor, 15%)
+
+            &.clear
+                background-color: $clear-key-bgcolor
+                color: $white
+
+                &:hover
+                    background-color: darken($clear-key-bgcolor, 15%)
+
+            &.equal
+                background: $main-gradient
+                color: $white
+
+                &:hover
+                    background: linear-gradient(to bottom, darken($gradient-stop1, 10%) 0%, darken($gradient-stop2, 10%) 100%)
+                
+            &.display
+                background-color: $screen-bgcolor
+                color: $white
