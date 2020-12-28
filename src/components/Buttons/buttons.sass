@@ -7,6 +7,7 @@
         grid-gap: 0.8rem
 
         .key
+            position: relative
             display: flex
             justify-content: center
             align-items: center
@@ -14,8 +15,19 @@
             padding: 1.5em
             border-radius: 15px
             background-color: $key-bgcolor
+            box-shadow: 2px 3px rgba(0,0,0,0.2)
             transition: all 0.2s ease-in-out
             cursor: pointer
+
+            &:hover,
+                box-shadow: 2px 3px rgba(0,0,0,0.4)
+
+            &:active
+                box-shadow: none
+                top: 2px
+
+            &.decimal
+                grid-column: 2 / span 2
 
             &.number,
             &.decimal
@@ -43,7 +55,7 @@
 
                 &:hover
                     background: linear-gradient(to bottom, darken($gradient-stop1, 10%) 0%, darken($gradient-stop2, 10%) 100%)
-                
-            &.display
-                background-color: $screen-bgcolor
-                color: $white
+
+            &.clear,
+            &.equal
+                grid-column: span 2
