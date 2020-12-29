@@ -25,9 +25,9 @@ const Buttons = ({handleClick}) => {
             <div
                 id="multiply"
                 className="key operator"
-                value="x"
+                value="*"
                 onClick={(e)=> handleClick(e)}
-            >x</div>
+            >*</div>
 
             <div
                 id="four"
@@ -50,9 +50,9 @@ const Buttons = ({handleClick}) => {
             <div
                 id="divide"
                 className="key operator"
-                value="÷"
+                value="/"
                 onClick={(e)=> handleClick(e)}
-            >÷</div>
+            >/</div>
 
             <div
                 id="one"

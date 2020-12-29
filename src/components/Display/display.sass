@@ -2,8 +2,9 @@
 
 .display
     display: flex
-    justify-content: flex-end
-    align-items: center
+    flex-direction: column
+    justify-content: center
+    align-items: flex-end
     user-select: none
     height: 25px
     padding: 1.5em
@@ -11,3 +12,15 @@
     border-radius: 15px
     background-color: $screen-bgcolor
     color: $white
+
+    &__upper,
+    &__lower
+        margin: 0
+
+    &__upper
+        color: $screen-upper-color
+        font-weight: 400
+        font-size: 16px
+
+    &__lower
+        font-weight: 600
