@@ -110,7 +110,7 @@ class Calculator extends React.Component {
     const { accValue } = this.state;
     const accValueOne = accValue.replace(endsWidthOpRegex, '');
     const result = eval(accValueOne);
-    const resultRounded = Math.floor(result);
+    const resultRounded = Math.floor(result*100000)/100000;
     
     this.setState ({
       currentValue: resultRounded,
