@@ -1,11 +1,11 @@
 import './display.sass';
 
-const Display = () => {
+const Display = ({currentValue}) => {
     return (
         <div
             id="display"
             className="key display"
-        >0</div>
+        >{currentValue}</div>
     )
 }
 
