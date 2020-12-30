@@ -1,6 +1,36 @@
-# Getting Started with Create React App
+# React Calculator
+> This is a very small project created with the purpose of learning the fundamentals of React.js starting from a simple [Create React App](https://github.com/facebook/create-react-app).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🎯 About ##
+
+I've started this project with the idea of reworking one of the ending projects of the Front End Libraries Certification (300 hours) of [FreeCodeCamp](https://www.freecodecamp.org/learn).
+I have structured the project with two small React components and I have styled it with a little bit of custom SASS.
+You can make any calculation with the four "basic" operators, you can clear the current formula and you can even type in decimal numbers.
+
+### Demo
+Here's the [demo link](https://react-calculator-alpha.netlify.app/).
+
+## :rocket: Technologies ##
+
+- [React](https://reactjs.org/)
+- [SASS/SCSS](https://sass-lang.com/)
+
+## Netlify deploy & configuration
+
+> The site is developed with some specific https://netlify.com apis.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3cb09be5-e116-4f42-a3b3-b95c2402633f/deploy-status)](https://app.netlify.com/sites/react-calculator-alpha/deploys)
+
+### Deploy configuration steps
+
+1. Connect your GitHub account to Netlify
+3. Select the project
+2. In Settings → Build & Deploy → Set **Build command** to : **_npm run build_**
+3. In Settings → Build & Deploy → Set **Publish directory** to : **_build_**
+
+## :white_check_mark: Requirements ##
+
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
 ## Available Scripts
 
