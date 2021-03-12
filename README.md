@@ -1,4 +1,4 @@
-![Image of React Calculator Project](https://i.postimg.cc/x8zRYzRT/React-Calculator.png)
+![Image of React Calculator Project](https://cdn.jsdelivr.net/gh/Th3Wall/assets-cdn/ReactCalculator/ReactCalculator_readme.png)
 # React Calculator
 > This is a very small project created with the purpose of learning the fundamentals of React.js starting from a simple [Create React App](https://github.com/facebook/create-react-app).
 
