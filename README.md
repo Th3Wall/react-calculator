@@ -20,7 +20,7 @@ Here you can find the demo link:
 - [React](https://reactjs.org/)
 - [SASS/SCSS](https://sass-lang.com/)
 
-## Netlify deploy & configuration
+## :rotating_light: Netlify deploy & configuration
 
 > The site is developed with some specific https://netlify.com apis.
 
