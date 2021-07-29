@@ -10,8 +10,11 @@ You can make any calculation with the four "basic" operators, you can clear the 
 <br/><br/>
 
 ## ▶️ Demo
-Here's the [demo link](https://react-calculator-alpha.netlify.app/).
-<br/><br/>
+
+Here you can find the demo link:
+
+- [Netlify](https://react-calculator-alpha.netlify.app/)
+- <br/><br/>
 
 ## :rocket: Technologies ##
 
