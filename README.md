@@ -1,4 +1,5 @@
 ![Image of React Calculator Project](https://cdn.jsdelivr.net/gh/Th3Wall/assets-cdn/ReactCalculator/ReactCalculator_readme.png)
+
 # 🔢 React Calculator
 > This is a very small project created with the purpose of learning the fundamentals of React.js starting from a simple [Create React App](https://github.com/facebook/create-react-app).
 
@@ -7,20 +8,17 @@
 I've started this project with the idea of reworking one of the ending projects of the Front End Libraries Certification (300 hours) of [FreeCodeCamp](https://www.freecodecamp.org/learn).
 I have structured the project with two small React components and I have styled it with a little bit of custom SASS.
 You can make any calculation with the four "basic" operators, you can clear the current formula and you can even type in decimal numbers.
-<br/><br/>
 
 ## ▶️ Demo
 
 Here you can find the demo link:
 
 - [Netlify](https://react-calculator-alpha.netlify.app/)
-- <br/><br/>
 
 ## :rocket: Technologies ##
 
 - [React](https://reactjs.org/)
 - [SASS/SCSS](https://sass-lang.com/)
-<br/><br/>
 
 ## Netlify deploy & configuration
 
@@ -34,12 +32,10 @@ Here you can find the demo link:
 3. Select the project
 2. In Settings → Build & Deploy → Set **Build command** to : **_npm run build_**
 3. In Settings → Build & Deploy → Set **Publish directory** to : **_build_**
-<br/><br/>
 
 ## :white_check_mark: Requirements ##
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
-<br/><br/>
 
 ## Available Scripts
 
